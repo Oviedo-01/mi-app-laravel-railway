@@ -28,19 +28,19 @@
                         <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-1.jpg') }}" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-2.jpg') }}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-3.jpg') }}" alt="">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-1.jpg') }}" alt="">
                     </div>
                     <div class="col-4">
                         <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-2.jpg') }}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-3.jpg') }}" alt="">
                     </div>
                     <div class="col-4">
                         <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-1.jpg') }}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-1.jpg') }}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('tourism/img/package-2.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
