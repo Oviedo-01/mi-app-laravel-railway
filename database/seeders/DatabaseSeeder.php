@@ -10,6 +10,7 @@ class DatabaseSeeder extends Seeder
     {
         // Aquí llamas a tus seeders
         $this->call([
+            RolesSeeder::class,
             AdminUserSeeder::class,
         ]);
     }

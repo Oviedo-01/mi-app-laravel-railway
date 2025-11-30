@@ -21,10 +21,11 @@ class AdminUserSeeder extends Seeder
             ]
         );
 
-        // 2. Crear el rol 'admin' si no existe
-        $role = Role::firstOrCreate(['name' => 'admin', 'guard_name' => 'web']);
+        // 2. Crear los roles si no existen
+        $adminRole = Role::firstOrCreate(['name' => 'admin', 'guard_name' => 'web']);
+        $userRole  = Role::firstOrCreate(['name' => 'usuario', 'guard_name' => 'web']); // <-- agregar
 
-        // 3. Asignar el rol al usuario
-        $admin->assignRole($role);
+        // 3. Asignar el rol al usuario admin
+        $admin->assignRole($adminRole);
     }
 }
