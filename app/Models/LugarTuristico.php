@@ -126,7 +126,7 @@ class LugarTuristico extends Model
         $calificaciones = $this->comentarios()
             ->selectRaw('calificacion, COUNT(*) as total')
             ->groupBy('calificacion')
-            ->orderBy('calificacion', 'asc')
+            ->reorder('calificacion', 'asc')
             ->pluck('total', 'calificacion');
         
         foreach ($calificaciones as $calificacion => $total) {
